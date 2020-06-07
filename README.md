@@ -3,16 +3,19 @@
     1. 安装[Rime输入法](https://rime.im/),并注销或重启
     2. 下载仓库所有配置文件到本地
     3. 将下载的除字体外的所有文件覆盖到用户设定文件夹
-        - Windows
-          - Weasel: %APPDATA%\Rime
-        - Mac OS X
-          - Squirrel: ~/Library/Rime
-        - Linux
-          - iBus: ~/.config/ibus/rime
-          - Fcitx: ~/.config/fcitx/rime
    4. 安装字体 ( font 目录)
    5. 也可以在“用户文件夹”中查看
    6. 右键点击rime输入法图标，点击重新部署，部署完毕即可用
+
+用户设定文件夹在不同的系统下也有不同,如下
+
+- Windows
+  - Weasel: %APPDATA%\Rime
+- Mac OS X
+  - Squirrel: ~/Library/Rime
+- Linux
+  - iBus: ~/.config/ibus/rime
+  - Fcitx: ~/.config/fcitx/rime
 
 
   ## 配置文件说明
@@ -26,6 +29,10 @@
 ------
 
 ## FAQ
+
+### 快捷键
+
+使用 Ctrl + ` (Tab上面那个)切换输入方案。
 
 ### 如何添加词库
 
